@@ -3,10 +3,10 @@
   <img style="border: 1px solid black" width="500" src="javacalculator.gif"/>
 </div>
 
-### CALCULATOR
 > *Do simple calculations with this fully functional calculator* 😊
----
+
 ![Java-version-Used-14.0.2](https://img.shields.io/badge/Java%20Version-14.0.2-red)
+---
 
 This project was developed for the **Programming 1 class**, in the **Computer Information Systems** course 
 at **Goiás State University**
