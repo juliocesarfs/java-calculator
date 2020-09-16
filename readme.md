@@ -31,7 +31,7 @@ After cloning the repository, **just run App.java**.
 
 # 📕 License
 
-This project is under the [MIT license](https://github.com/Crucciatus/java-calculator/blob/master/LICENSE)
+This project is under the [MIT license](https://github.com/juliocesarfs/java-calculator/blob/master/LICENSE)
 
 Made with 💜 by [*Júlio César*](https://github.com/juliocesarfs) 🚀
 
