@@ -8,7 +8,6 @@ import javax.swing.border.AbstractBorder;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.ArrayList;
 
 public class OperationsButtonsPanel extends JPanel implements ActionListener {
 
