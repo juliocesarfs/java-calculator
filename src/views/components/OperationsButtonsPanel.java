@@ -30,10 +30,10 @@ public class OperationsButtonsPanel extends JPanel implements ActionListener {
         listRenderer.setHorizontalAlignment(DefaultListCellRenderer.CENTER);
 
         operationsList.addItem("SELECT OPERATION");
-        operationsList.addItem("SOMA");
-        operationsList.addItem("SUBTRAÇÃO");
-        operationsList.addItem("MULTIPLICAÇÃO");
-        operationsList.addItem("DIVISÃO");
+        operationsList.addItem("SUM");
+        operationsList.addItem("SUBTRACTION");
+        operationsList.addItem("MULTIPLICATION");
+        operationsList.addItem("DIVISION");
 
         operationsList.setFont(new Font("Roboto", Font.BOLD, 12));
         operationsList.setForeground(Color.white);
@@ -104,22 +104,22 @@ public class OperationsButtonsPanel extends JPanel implements ActionListener {
 
         if(e.getStateChange() == ItemEvent.SELECTED && e.getItem().toString() != "SELECT OPERATION")
             switch (e.getItem().toString()) {
-                case "SOMA":
+                case "SUM":
                     numberText.setText(numberText.getText() + '+');
                     operationsList.setSelectedItem("SELECT OPERATION");
                     break;
 
-                case "SUBTRAÇÃO":
+                case "SUBTRACTION":
                     numberText.setText(numberText.getText() + '-');
                     operationsList.setSelectedItem("SELECT OPERATION");
                     break;
 
-                case "MULTIPLICAÇÃO":
+                case "MULTIPLICATION":
                     numberText.setText(numberText.getText() + '*');
                     operationsList.setSelectedItem("SELECT OPERATION");
                     break;
 
-                case "DIVISÃO":
+                case "DIVISION":
                     numberText.setText(numberText.getText() + '/');
                     operationsList.setSelectedItem("SELECT OPERATION");
                     break;
