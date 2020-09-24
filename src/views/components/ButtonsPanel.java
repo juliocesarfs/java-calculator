@@ -4,8 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ButtonsPanel extends JPanel {
-    NumbersButtonsPanel numbersButtonsPanel;
-    OperationsButtonsPanel operationsButtonsPanel;
 
     public ButtonsPanel() {
         setBackground(Color.BLACK);
