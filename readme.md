@@ -8,8 +8,8 @@
 ![Java-version-Used-14.0.2](https://img.shields.io/badge/Java%20Version-14.0.2-red)
 ---
 
-This project was developed for the **Programming 1 class**, in the **Computer Information Systems** course 
-at **Goiás State University**
+This project was developed for the **Programming 1 class**, in the **Information Systems** course 
+at **Universidade Estadual de Goiás**
 
 ### 💬 Purpose
 The purpose of this simple project was to know the main functions of Java Swing...
